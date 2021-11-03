@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        @media (min-width:768px) {
+            .bd-placeholder-img-1g {
+                font-size: 3.5rem;
+                background-color: red;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>
+        Página de login
+    </title>
+</head>
+
+<body class="login">
+    <div class="imagem">
+        <img src="C:\Users\Pichau\Documents\HTML\Celiflex\imagens\logopng.png">
+    </div>
+
+    <div class="tabelaLogin">
+        <h3 class="acesso"> ACESSO DE PEDIDOS </h3>
+        <form>
+            <table>
+                <tr>
+                    <td> Nome de usuário:
+                        <input type="text" id="login" name="nome" size="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Senha:
+                        <input type="password" id= "login" name="senha" size="40">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><br>
+
+                        <input type="button" class="botaoEntrar" onclick="Entrar()" value="Entrar" />
+                    </td>
+                </tr>
+
+                <script>
+                    function Entrar() {
+
+                        window.location.href = "file:///C:/Users/Pichau/Documents/HTML/Celiflex/Principal.html";
+                    }
+                </script>
+
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

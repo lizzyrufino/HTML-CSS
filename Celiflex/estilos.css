@@ -1,0 +1,144 @@
+.projeto{
+    background-color:#002b0e;
+    font-style: normal;
+    color: white;}
+
+.vendas{
+    text-align: center;
+    background-color: green;
+    font-family:sans-serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem{
+    text-align: center;
+    max-height:200px;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+
+.login{
+    background-color:black;
+}
+
+.tabelaLogin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    background-color: #FFFAF0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color:black;
+    font-size: 20px;
+    font-family:georgia;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+.acesso{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.botaoEntrar{
+    background-color:yellow;
+    font-size:18px;
+    font-family:Arial;
+    border-radius: 8px;
+    height:34px;
+    width: 80px;
+
+}
+
+.principal{
+    background-color:#CDC9C9;
+    font-style: normal;
+    color: white;
+}
+
+.vendasPrincipal{
+    text-align: center;
+    background-color:#EEE9E9;
+    font-family:sans-serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+}
+
+.buscaClientes{
+
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+
+}
+
+#divBusca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#E0EEEE;
+    border:solid 2px #BEBEBE;
+    border-radius:10px;
+    width:350px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #txtBusca{
+
+    background-color:transparent;
+    padding-left:56px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+
+  }
+  
+  #btnBusca{
+    border:none;
+    height:34px;
+    border-radius:0 7px 7px 0;
+    width:90px;
+    font-weight:bold;
+    background:#BEBEBE;
+  }
+  
+  #divBusca img{
+    display: flex;
+    float:left;
+    padding-left: 6px;
+  }
+
+  #login{
+    border:solid 2px #BEBEBE;
+    border-radius:7px;
+    background-color:rgb(209, 209, 208);
+    padding-left:56px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    text-align: justify;
+
+  }
